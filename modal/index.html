@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>My Landing Page</title>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="img/me4.jpg" alt="user">
+    </div>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <h1>Hi! Am Yasheer</h1>
+
+    <p>Front-end Developer, Technology Gig!</p>
+
+    <button class="cta-btn" id="open">Mail Me</button>
+  </header>
+  
+  <div class="container">
+    <h1>About Me</h1>
+    <p>Am 23year old Front-End Developer,I know HTML,CSS and VanillaJS in depth knowledge in the fundamental of the programming language. I do have experience in working with AJAX, Fetch API. I can automate boring STUFF and I always get a solution of the problem. </p>
+    
+    <h1>Projects</h1>
+      <div class="flex">
+        <a  href="https://inspiring-fermat-f8e529.netlify.app/" target="_blank"><img src="img/cafe_shop.JPG" class="project_img"></a>
+        <a  href="https://tender-lalande-1f690d.netlify.app/" target="_blank"><img src="img/netflix.JPG" class="project_img"></a>
+      </div>
+    
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita aspernatur consequatur aut libero. Alias ea error tempore, culpa enim quisquam aut, quas ad tenetur dignissimos, deserunt assumenda maiores tempora veritatis veniam molestiae explicabo itaque libero et voluptatem! Vel eaque quia quisquam amet rem tempore corrupti ab in? Eveniet dolor vero odit veritatis tempora accusantium laboriosam officiis facere cumque, tenetur in consequuntur expedita et? Labore animi, sequi aut iure blanditiis consequatur.</p>
+
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+      <div class="modal-content">
+        <p>Register with us to get offers support and More</p>
+      </div>
+      <form  class="modal-form">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" class="form-input">
+        </div>
+        <div> 
+          <label for="email">email</label>
+          <input type="text" id = "email" class="form-input">
+        </div>
+        <div>
+          <label for="password">password</label>
+          <input type="text" id = "password" class="form-input">
+        </div>
+        <div>
+          <label for="password2">confirm password</label>
+          <input type="text" id = "password2" class="form-input">
+        </div>
+        <div>
+        <button class="submit">Submit</button>
+      </div>
+      </form>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
